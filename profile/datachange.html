@@ -9,8 +9,8 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" id="main-stylesheet" data-version="1.0.0" href="styles/shards-dashboards.1.0.0.min.css">
-    <link rel="stylesheet" href="styles/extras.1.0.0.min.css">
+    <link rel="stylesheet" id="main-stylesheet" data-version="1.0.0" href="../styles/shards-dashboards.1.0.0.min.css">
+    <link rel="stylesheet" href="../styles/extras.1.0.0.min.css">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
   <body class="h-100">
@@ -79,29 +79,29 @@
               <li class="nav-item">
                 <a class="nav-link active" >
                   <span>การเเสดงผลบนอุปกรณ์</span>
-                  <a class="dropdown-item" href="showdisplay/show.html" style="margin-left: 30px">การเเสดงผล</a>
+                  <a class="dropdown-item" href="../showdisplay/show.html" style="margin-left: 30px">การเเสดงผล</a>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" >
                   <span>การจัดการอุปกรณ์</span>
-                  <a class="dropdown-item" href="statusdeviece/devicestatus.html" style="margin-left: 30px">สถานะอุปกรณ์</a>
+                  <a class="dropdown-item" href="../statusdeviece/devicestatus.html" style="margin-left: 30px">สถานะอุปกรณ์</a>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" >
                   <span>การจัดการไฟล์</span>
-                  <a class="dropdown-item" href="contentsmanagement/video.html" style="margin-left: 30px">การจัดการวีดีโอ</a>
-                  <a class="dropdown-item" href="contentsmanagement/pic.html" style="margin-left: 30px">การจัดการภาพ</a>
-                  <a class="dropdown-item" href="contentsmanagement/text.html" style="margin-left: 30px">การจัดการข้อความ</a>
-                  <a class="dropdown-item" href="contentsmanagement/website.html" style="margin-left: 30px">การจัดการเว็บไซต์</a>
+                  <a class="dropdown-item" href="../contentsmanagement/video.html" style="margin-left: 30px">การจัดการวีดีโอ</a>
+                  <a class="dropdown-item" href="../contentsmanagement/pic.html" style="margin-left: 30px">การจัดการภาพ</a>
+                  <a class="dropdown-item" href="../contentsmanagement/text.html" style="margin-left: 30px">การจัดการข้อความ</a>
+                  <a class="dropdown-item" href="../contentsmanagement/website.html" style="margin-left: 30px">การจัดการเว็บไซต์</a>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" >
                   <span>การจัดการรายละเอียดผู้ใช้งาน</span>
-                  <a class="dropdown-item" href="profile/datachange.html" style="margin-left: 30px">เเก้ไขข้อมูลส่วนตัว</a>
-                  <a class="dropdown-item" href="profile/changepassword.html" style="margin-left: 30px">เปลี่ยนรหัสผ่าน</a>
+                  <a class="dropdown-item" href="../profile/datachange.html" style="margin-left: 30px">เเก้ไขข้อมูลส่วนตัว</a>
+                  <a class="dropdown-item" href="../profile/changepassword.html" style="margin-left: 30px">เปลี่ยนรหัสผ่าน</a>
                   <a class="dropdown-item" href="#" style="margin-left: 30px">ออกจากระบบ</a>
                 </a>
               </li>
@@ -125,64 +125,119 @@
             <!-- Page Header -->
             <div class="page-header row no-gutters py-4">
             </div>
-            <!-- End Page Header -->
-            <!-- Small Stats Blocks -->
-            <div class="row">
-              <div class="col-lg col-md-4 col-sm-12 mb-4">
-              <div class="bg-success rounded text-white text-center p-3" style="box-shadow: inset 0 0 5px rgba(0,0,0,.2);" data-toggle="modal" data-target="#addvideo">+ เพิ่มวีดีโอ</div>
-              </div>
-            </div>
-            <!-- End Small Stats Blocks -->
             <div class="row">
               <!-- Users Stats -->
               <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
                 <div class="card card-small">
-                  <div class="card-header border-bottom">
-                    <h6 class="m-0">วีดีโอ</h6>
-                  </div>
+
                   <div class="card-body pt-0">
                     <div class="row border-bottom py-2 bg-light">
-                                ฟหกฟหก
-                      </div>
+                      <div class="bg-success rounded text-white text-center p-2"
+                      style="box-shadow: inset 0 0 5px rgba(0,0,0,.2); margin-left: 10px;">+ เเก้ไขข้อมูลส่วนตัว</div>
+                  </div>
                 </div>
-              </div>
-              <!-- End Users Stats -->
+                <div class="card-header border-bottom">
+                  <div class="custom-control custom-toggle custom-toggle-sm mb-1">
 
-              <div class="modal fade" id="addvideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">เพิ่มวีดีโอใหม่</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
+                    <form action="#" method="post" enctype="multipart/form-data">
+
+                    <div class="row">
+
+                    <div class="col-xl-6 col-lg-8 col-md-9 col-sm-12" style="padding-left: 0px">
+
                       <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
-                          <form action="" method="post" enctype="multipart/form-data">
-                          <input type="file" id="upload_file" name="upload_file" multiple/>
-                        </div>
+
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" style="padding-left: 0px">
+                        <strong class="text-muted d-block mb-2">ชื่อ</strong>
+                        <input type="text" class="form-control" id="upload_name" name="upload_name" style="width: 100%; height: 40px;"/> </br>
+                        <strong class="text-muted d-block mb-2">นามสกุล</strong>
+                        <input type="text" class="form-control" id="upload_address" name="upload_address" style="width: 100%; height: 40px;"/> </br>
+                        <strong class="text-muted d-block mb-2">เบอร์โทร</strong>
+                        <input type="text" class="form-control" id="upload_province" name="upload_province" style="width: 100%; height: 40px;"/> </br>
+                        <strong class="text-muted d-block mb-2">ที่อยู่</strong>
+                        <input type="text" class="form-control" id="upload_tel" name="upload_tel" style="width: 100%; height: 144px;"/> </br>
+
                       </div>
-                      <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
-                          <label for="videoname">ชื่อวีดีโอ</label>
-                          <input type="text" class="form-control" id="videoname">
-                        </div>
+
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" style="padding-left: 0px">
+
+                        <strong class="text-muted d-block mb-2">ตำบล</strong>
+                        <input type="text" class="form-control" id="upload_surname" name="upload_surname" style="width: 100%; height: 40px;"/> </br>
+                        <strong class="text-muted d-block mb-2">อำเภอ</strong>
+                        <input type="text" class="form-control" id="upload_sdistrict" name="upload_sdistrict" style="width: 100%; height: 40px;"/> </br>
+                        <strong class="text-muted d-block mb-2">จังหวัด</strong>
+                        <input type="text" class="form-control" id="upload_district" name="upload_district" style="width: 100%; height: 40px;"/> </br>
+                        <strong class="text-muted d-block mb-2">LineID</strong>
+                        <input type="text" class="form-control" id="upload_line" name="upload_line" style="width: 100%; height: 40px;"/> </br>
+                        <strong class="text-muted d-block mb-2">Instagram</strong>
+                        <input type="text" class="form-control" id="upload_ig" name="upload_ig" style="width: 100%; height: 40px;"/> </br>
+
                       </div>
+
+                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12" style="padding-left: 0px; padding-bottom: 0px;">
+
+                        <strong class="text-muted d-block mb-2">E-mail</strong>
+                        <input type="text" class="form-control" id="upload_surname" name="upload_surname" style="width: 100%; height: 40px;"/> </br>
+
+                      </div>
+
                     </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">ยกเลิก</button>
-                      <button type="submit" class="btn btn-primary">บันทึก</button>
+
+                    </div>
+
+                    <div class="col-xl-6 col-lg-4 col-md-3 col-sm-12" style="text-align: center; padding-top: 10%; padding-left: 0px">
+                      <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12" style="padding-left: 0px">
+                      <img src="../images/icon/192x192.png">
+                       </div>
+                    </div>
+                      <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12" style="margin-top: 20px; padding-left: 0px; padding-bottom: 20px">
+                      <button type="button" class="bg-success rounded text-white text-center p-1" data-toggle="modal" data-target="#changedata">+ เเก้ไขข้อมูลส่วนตัว</button>
+                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
-
-        </main>
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12" style="margin-top: 0px; text-align: right; padding-right: 30px;">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">ยกเลิก</button>
+                <button type="submit" class="btn btn-primary">บันทึก</button>
+            </div>
+           </div>
+          </from>
+         </main>
       </div>
     </div>
+
+    <!-- popup -->
+    <div class="modal fade" id="changedata" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">เปลี่ยนรูปภาพ</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
+                <form action="" method="post" enctype="multipart/form-data">
+                <input type="file" id="upload_file" name="upload_file" />
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">ยกเลิก</button>
+            <button type="submit" class="btn btn-primary">บันทึก</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
     <div class="promo-popup animated">
       <a href="http://bit.ly/shards-dashboard-pro" class="pp-cta extra-action">
         <img src="https://dgc2qnsehk7ta.cloudfront.net/uploads/sd-blog-promo-2.jpg"> </a>
@@ -206,8 +261,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
     <script src="https://unpkg.com/shards-ui@latest/dist/js/shards.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Sharrre/2.0.1/jquery.sharrre.min.js"></script>
-    <script src="scripts/extras.1.0.0.min.js"></script>
-    <script src="scripts/shards-dashboards.1.0.0.min.js"></script>
-    <script src="scripts/app/app-blog-overview.1.0.0.js"></script>
+    <script src="../scripts/extras.1.0.0.min.js"></script>
+    <script src="../scripts/shards-dashboards.1.0.0.min.js"></script>
+    <script src="../scripts/app/app-blog-overview.1.0.0.js"></script>
   </body>
 </html>
